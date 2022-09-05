@@ -2,7 +2,7 @@
 
 created with react
 
-Project in Action - [Jobster](https://redux-toolkit-jobster.netlify.app/)
+Project in Action - [Jobster](https://jobtrackerr.netlify.app)
 
 - set editor/browser side by side
 - copy/paste assets and readme from complete project
