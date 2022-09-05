@@ -1,8 +1,8 @@
 # Job Tracker
 
-created with react
+##### CREATED WITH REACT.js
 
-Project in Action - [Jobster](https://jobtrackerr.netlify.app)
+View in Deployment - [Jobster](https://jobtrackerr.netlify.app)
 
 - set editor/browser side by side
 - copy/paste assets and readme from complete project
@@ -154,10 +154,5 @@ OR
 
 ```sh
 npm install recharts --force
-```
-OR
-
-```sh
-npm install react@18 react-dom@18
 ```
 
