@@ -25,6 +25,11 @@ const Wrapper = styled.section`
     transition: var(--transition);
     border-radius: var(--borderRadius);
     cursor: pointer;
+    @media (max-width: 600px) {
+      width: 30px;
+      height: 30px;
+      font-size: 1rem;
+    }
   }
   .pageBtn:hover {
     background: var(--primary-500);
@@ -36,10 +41,8 @@ const Wrapper = styled.section`
   }
   .prev-btn,
   .next-btn {
-    /* width: 100px; */
     width: 50px;
     height: 40px;
-    /* background: var(--white); */
     background: transparent;
     border-color: transparent;
     border-radius: var(--borderRadius);
@@ -52,6 +55,11 @@ const Wrapper = styled.section`
     gap: 0.5rem;
     cursor: pointer;
     transition: var(--transition);
+    @media (max-width: 600px) {
+      width: 40px;
+      height: 30px;
+      font-size: 1rem;
+    }
   }
   .prev-btn:hover,
   .next-btn:hover {
