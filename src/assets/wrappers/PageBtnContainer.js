@@ -7,11 +7,11 @@ const Wrapper = styled.section`
   align-items: center;
   justify-content: end;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0.3rem;
   .btn-container {
     background: var(--primary-100);
     display: flex;
-    gap: 1rem;
+    gap: 0.2rem;
     border-radius: var(--borderRadius);
   }
   .pageBtn {
