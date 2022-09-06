@@ -31,17 +31,10 @@ export const loginThunk = async (url, user, thunkAPI) => {
 
 export const updateThunk = async (url, user, thunkAPI) => {
   try {
-    const resp = await customFetch.patch(url, user, {
-      headers: {
-        authorization: `Bearer ${thunkAPI.getState().user.user.token}`,
-      },
-    });
+    const resp = await customFetch.patch(url, user);
     return resp.data;
   } catch (error) {
-    return checkForUnauthorizedResponse(
-      error.response.data.msg ? error.response.data.msg : error.message,
-      thunkAPI
-    );
+    return checkForUnauthorizedResponse(error, thunkAPI);
   }
 };
 
