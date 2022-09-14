@@ -2,10 +2,7 @@
 
 ##### CREATED WITH REACT.js
 
-View in Deployment - [Jobster](https://jobtrackerr.netlify.app)
-
-- set editor/browser side by side
-- copy/paste assets and readme from complete project
+VIEW IN DEPLOYMENT - [Jobster](https://jobtrackerr.netlify.app)
 
 ### RESOURCES AND LIBRARIES USED
 
