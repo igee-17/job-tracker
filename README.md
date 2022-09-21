@@ -4,11 +4,12 @@
 
 VIEW IN DEPLOYMENT - [Jobster](https://jobtrackerr.netlify.app)
 
-### RESOURCES AND LIBRARIES USED
+## RESOURCES AND LIBRARIES USED
 
+#### Favicons
 [Generate Favicons](https://favicon.io/)
 
-#### 3) Normalize.css and Global Styles
+#### Normalize.css and Global Styles
 
 - CSS in JS (styled-components)
 - saves times on the setup
